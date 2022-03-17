@@ -39,7 +39,7 @@ if(NOT COMMAND CPMAddPackage)
 	include ("${LEMONS_CPM_PATH}")
 endif()
 
-set(EXIST $ENV{LEMONS_GIT_TAG})
+set(LEMONS_GIT_TAG $ENV{LEMONS_GIT_TAG})
 
 if(NOT LEMONS_GIT_TAG)
     set(LEMONS_GIT_TAG origin/main)
