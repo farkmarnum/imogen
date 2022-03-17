@@ -37,7 +37,7 @@ cmake -B Builds .
 
 To build against a specific version of Lemons:
 ```
-LEMONS_GIT_TAG=d67844a88ec7874dcb81effe8e0316e2c75c571b cmake -B Builds .
+LEMONS_GIT_TAG=v2.5.1 cmake -B Builds .
 ```
 
 
