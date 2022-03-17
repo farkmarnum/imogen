@@ -22,6 +22,25 @@ NOTE: Imogen is currently under development and will mostly likely not function 
 When Imogen is released, it will be available on MacOSX, Windows, Linux, and iPad, in the following formats: VST3, LV2, Unity, AudioUnit (Mac only), and as a standalone application on all platforms. An ImogenRemote app that does no audio processing but simply acts as a remote control for another instance of Imogen will also be available on all platforms. A port for the ElkOS is also being explored.
 
 
+## Building locally
+
+### Mac OS
+Add build tools:
+```
+brew install doxygen cmake
+```
+
+Build:
+```
+cmake -B Builds .
+```
+
+To build against a specific version of Lemons:
+```
+LEMONS_GIT_TAG=d67844a88ec7874dcb81effe8e0316e2c75c571b cmake -B Builds .
+```
+
+
 ## Author
 **Ben Vining**: ben.the.vining@gmail.com | [Facebook](http://www.facebook.com/benviningofficial/) | [Twitter](http://twitter.com/benthevining) | [Gumroad](http://gumroad.com/benvining)
 
